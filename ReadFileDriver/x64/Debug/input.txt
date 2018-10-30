@@ -1,0 +1,18 @@
+Organization of This Book
+After teaching driver programming seminars for many years, I've come to understand that people learn things in fundamentally
+different ways. Some people like to learn a great deal of theory about something and then learn how to apply that theory to
+practical problems. Other people like to learn practical things first and then learn the general theory. I call the former approach
+deductive and the latter approach inductive. I personally prefer an inductive approach, and I've organized this book to suit that
+style of learning.
+My aim is to explain how to write device drivers. Broadly speaking, I want to provide the minimum background you'll need to
+write an actual driver and then move on to more specialized topics. That "minimum background" is pretty extensive, however;
+it consumes seven chapters. Once past Chapter 7, you'll be reading about topics that are important but not necessarily on the
+fall line that leads straight downhill to a working driver.
+Chapter 1, "Beginning a Driver Project," as I've mentioned, describes WDM device drivers and how they relate to Windows
+itself. Along the way, I'll relate the story of how we got to where we are today in operating system and driver technology. The
+chapter also explains how to choose the kind of driver you need, provides an overview and checklist specifically for
+development managers, and addresses the issue of binary compatibility.
+Chapter 2, "Basic Structure of a WDM Driver," explains the basic data structures that Windows 2000 uses to manage I/O
+devices and the basic way your driver relates to those data structures. I'll discuss the driver object and the device object. I'll
+also discuss how you write two of the subroutines—the DriverEntry and AddDevice routines—that every WDM driver
+package contains.

@@ -1,0 +1,23 @@
+﻿  Building 'ReadFileDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(402,5): warning MSB8038: Spectre mitigation is enabled but Spectre mitigated libraries are not found.  Verify that the Visual Studio Workload includes the Spectre mitigated libraries.  See https://aka.ms/Ofhn4c for more information.
+  Stamping x64\Debug\ReadFileDriver.inf
+  Stamping [Version] section with DriverVer=10/31/2018,0.29.29.81
+  Source.c
+  ReadFileDriver.vcxproj -> C:\Users\Administrator\Desktop\Project_LTHT\ReadFileDriver\x64\Debug\ReadFileDriver.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Administrator\Desktop\Project_LTHT\ReadFileDriver\x64\Debug\ReadFileDriver.sys
+  
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\Administrator\Desktop\Project_LTHT\ReadFileDriver\x64\Debug\ReadFileDriver\readfiledriver.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\Administrator\Desktop\Project_LTHT\ReadFileDriver\x64\Debug\ReadFileDriver\readfiledriver.cat
+  
